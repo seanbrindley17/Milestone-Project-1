@@ -1,8 +1,50 @@
-.uppercase {
-    text-transform: uppercase;
-    color: blue;
-    background-color: red;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&family=Vast+Shadow&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*----------------------------------------Colours */
+
+#heading {
+    background-color: #c0c0c0;
 }
 
 
+
+/*----------------------------------------Heading */
+
+h1 {
+    text-transform: uppercase;
+}
+
+.sitename {
+    font-family: "Vast Shadow", sans-serif;
+    font-size: 2.7rem;
+    font-weight: 300;
+    text-align: center;
+    color: #000;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.headinglink {
+    text-decoration: none;
+}
+
+/*----------------------------------------Navigation */
+
+#navbar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.navitems {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: "Vast Shadow";
+}
