@@ -8,11 +8,19 @@
 
 /*----------------------------------------Colours */
 
-#heading {
-    background-color: #c0c0c0;
+
+body {
+    background: linear-gradient(
+        90deg, 
+        #999 5%,
+        #fff 10%, 
+        #ccc 30%, 
+        #ddd 50%, 
+        #ccc 70%,
+        #fff 80%,
+        #999 95%
+    );
 }
-
-
 
 /*----------------------------------------Heading */
 
