@@ -33,8 +33,8 @@ h1 {
     font-size: 2.7rem;
     font-weight: 300;
     text-align: center;
-    padding-top: 25px;
-    padding-bottom: 50px;
+    padding-top: 37.5px;
+    padding-bottom: 37.5px;
 }
 
 .headinglink {
@@ -60,9 +60,8 @@ h1 {
 .navbutton {
     font-family: "Vast Shadow";
     position: relative;
-    right: 6%;
     height: 50px;
-    width: 100px;
+    width: 100%;
     font-size: 0.8em;
     border-style: solid;
     border-color: #000;
@@ -92,6 +91,7 @@ h1 {
     height: 100%;
 }
 
+/* Following code taken from hover.css */
 .hvr-sweep-to-right {
     display: inline-block;
     vertical-align: middle;
@@ -141,3 +141,43 @@ h1 {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
+  /* End of hover.css code */
+
+/*----------------------------------------Index-Section */
+
+#section-general {
+    font-family: "GFS Neohellenic";
+    font-size: 2rem;
+    margin-bottom: 100px;
+}
+
+
+#bodytext-top {
+    padding-left: 10%;
+    padding-top: 25px;
+    text-align: left;
+    font-size: 1.7rem;
+}
+
+#bodytext-middle {
+    text-align: center;
+    font-size: 6rem;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#bodytext-bottom {
+    padding-left: 66%;
+    text-align: left;
+    font-size: 1.7rem;
+}
+
+/*----------------------------------------Footer */
+
+#footer-general {
+    position: absolute;
+    font-family: sans-serif;
+    padding-top: 20px;
+    padding-left: 10%;
+    height: 100px;
+}
