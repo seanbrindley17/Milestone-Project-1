@@ -56,26 +56,24 @@ h1 {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
+    justify-content: center;
 }
 
 .navitems {
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 25%;
-    height: 75px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 28%;
+    height: 5.5rem;
 }
+
 
 .navbutton {
     font-family: "Vast Shadow";
-    height: 50px;
-    width: 100%;
     font-size: 0.8em;
-    border-style: solid;
+    border-style: none;
     border-color: #000;
     border-width: 1px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-top: 2.5em;
     border-radius: 25%;
     background: linear-gradient(
         45deg,
@@ -90,7 +88,7 @@ h1 {
     text-decoration: none;
     width: 100%;
     height: 100%;
-    
+    color: #201e1e;
 }
 
 
