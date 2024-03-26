@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&family=Vast+Shadow&display=swap&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * {
     padding: 0;
@@ -150,21 +150,23 @@ h1 {
 #section-general {
     font-family: "GFS Neohellenic";
     font-size: 2rem;
-    margin-bottom: 75px;
+    margin-bottom: 25px;
 }
 
 #bodytext-top {
     padding-left: 10%;
-    padding-top: 25px;
+    padding-top: 5px;
     text-align: left;
     font-size: 1.7rem;
 }
 
 #bodytext-middle {
+    font-family: "Arvo";
+    font-weight: 700;
+    font-style: normal;
     text-align: center;
-    font-size: 6rem;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    font-size: 4rem;
+    padding-bottom: 10px;
 }
 
 #bodytext-bottom {
@@ -173,15 +175,27 @@ h1 {
     font-size: 1.7rem;
 }
 
+/*----------------------------------------Index Icons */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+}
+
+.grid-container i {
+    font-size: 300%;
+}
+
 /*----------------------------------------Footer */
 
 #footer-general {
     width: 100%;
     bottom: 10%;
     font-family: sans-serif;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-left: 10%;
-    height: 75px;
-    margin-bottom: 20px;
+    height: 100px;
+    margin-top: 1px;
     padding-bottom: 20px;
 }
