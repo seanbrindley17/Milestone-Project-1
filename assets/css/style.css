@@ -6,12 +6,14 @@
     margin: 0;
 }
 
-html {
-    min-height: 100%;
-}
+
 
 html, body {
     overflow-x: hidden;
+}
+
+body {
+    min-height: 100%;
 }
 
 /*----------------------------------------Colours */
@@ -190,12 +192,47 @@ h1 {
 /*----------------------------------------Footer */
 
 #footer-general {
+    position: relative;
     width: 100%;
-    bottom: 10%;
+    top: 50px;
     font-family: sans-serif;
     padding-top: 25px;
     padding-left: 10%;
     height: 100px;
     margin-top: 1px;
     padding-bottom: 20px;
+}
+
+/*----------------------------------------Media Queries */
+
+
+@media screen and (min-width: 380px) {
+    html {
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .navbutton {
+        font-size: 1rem;
+        padding-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .navbutton {
+        font-size: 1.2rem;
+        padding-top: 1.8rem;
+    }
+
+    .navitems {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .navbutton {
+        font-size: 1.5rem;
+        padding-top: 1.5rem;
+    }
 }
