@@ -6,38 +6,31 @@
     margin: 0;
 }
 
-
-
-/* html, body {
-    overflow-x: hidden;
+html {
+    min-height: 100%;
 }
 
-body {
+/* body {
     min-height: 100%;
+}
+
+html, body {
+    overflow-x: hidden;
 } */
+
 
 /*----------------------------------------Colours */
 
 
 #main {
-    /* background: linear-gradient(
-        45deg, 
-        #999 5%,
-        #fff 10%, 
-        #ccc 30%, 
-        #ddd 50%, 
-        #ccc 70%,
-        #fff 80%,
-        #999 95%
-    ); */
     background: url(../images/circular-837510_1920.jpg) no-repeat center center fixed;
 }
 
 /*----------------------------------------Heading */
 
-h1 {
+/* h1 {
     text-transform: uppercase;
-}
+} */
 
 .sitename {
     font-family: "Vast Shadow", sans-serif;
@@ -231,18 +224,31 @@ h1 {
         padding-top: 1.8rem;
     }
 
+    #section-general {
+        margin-bottom: 75px;
+    }
+
     .navitems {
         margin-left: 15px;
     }
 
     #footer-general {
-        top: 150px;
+        top: 85px;
     }
 }
 
 @media screen and (min-width: 992px) {
     .sitename {
         font-size: 5rem;
+    }
+
+    #section-general {
+        margin-top: 35px;
+        margin-bottom: 70px;
+    }
+
+    #footer-general {
+        top: 50px;
     }
 }
 
