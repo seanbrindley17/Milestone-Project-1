@@ -10,19 +10,19 @@ html {
     min-height: 100%;
 }
 
-/* body {
+body {
     min-height: 100%;
 }
 
 html, body {
     overflow-x: hidden;
-} */
+} 
 
 
 /*----------------------------------------Colours */
 
 
-#main {
+body {
     background: url(../images/circular-837510_1920.jpg) no-repeat center center fixed;
 }
 
@@ -66,12 +66,12 @@ html, body {
 .navbutton {
     font-family: "Vast Shadow";
     font-size: 0.8em;
-    border-style: none;
-    border-color: #000;
+    border-style: dashed;
+    border-color: #fafafa;
     border-width: 1px;
     padding-top: 2.5em;
-    border-radius: 25%;
-    background: linear-gradient(
+    /* border-radius: 25%; */
+    /* background: linear-gradient(
         45deg,
         #a79315 5%,
         #e2c821 10%,
@@ -80,14 +80,16 @@ html, body {
         #dacd7e 70%,
         #e5da93 80%,
         #e2c402 95%
-    );
+    ); */
     text-decoration: none;
     width: 100%;
     height: 100%;
     color: #201e1e;
 }
 
-
+.active {
+    text-decoration: underline;
+}
 
 /* Following code taken from hover.css */
 .hvr-sweep-to-right {
@@ -199,19 +201,37 @@ html, body {
 
 /*----------------------------------------Media Queries */
 
+/*--- Small Phone */
 
-@media screen and (min-width: 380px) {
+@media screen and (min-width: 320px) {
     html {
         height: 100%;
     }
+
+    .navbutton {
+        font-size: 0.8rem;
+        padding-top: 0; 
+    }
+
+    .navitems {
+        height: 1.5rem;
+    }
 }
+
+/*--- Phone */
 
 @media screen and (min-width: 425px) {
     .navbutton {
         font-size: 1rem;
-        padding-top: 2rem;
+        padding-top: 0.8rem;
+    }
+
+    .navitems {
+        height: 3rem;
     }
 }
+
+/*--- Tablet */
 
 @media screen and (min-width: 768px) {
     
@@ -221,7 +241,7 @@ html, body {
     
     .navbutton {
         font-size: 1.2rem;
-        padding-top: 1.8rem;
+        padding-top: 0.5rem;
     }
 
     #section-general {
@@ -232,10 +252,16 @@ html, body {
         margin-left: 15px;
     }
 
+    #bodytext-top, #bodytext-bottom {
+        font-size: 2rem;
+    }
+
     #footer-general {
         top: 85px;
     }
 }
+
+/*--- Laptop/Regular Screen */
 
 @media screen and (min-width: 992px) {
     .sitename {
@@ -252,10 +278,12 @@ html, body {
     }
 }
 
+/*--- Large Screen */
+
 @media screen and (min-width: 1200px) {
     .navbutton {
         font-size: 1.5rem;
-        padding-top: 1.5rem;
+        padding-top: 0.5rem;
     }
 
     #footer-general {
