@@ -64,7 +64,7 @@ body {
 
 
 .navbutton {
-    font-family: "Vast Shadow";
+    font-family: "Vast Shadow", sans-serif;
     font-size: 0.8em;
     border-style: dashed;
     border-color: #fafafa;
@@ -146,7 +146,7 @@ body {
 /*----------------------------------------Index-Section */
 
 #section-general {
-    font-family: "GFS Neohellenic";
+    font-family: "GFS Neohellenic", sans-serif;
     font-size: 2rem;
     margin-bottom: 25px;
 }
@@ -159,7 +159,7 @@ body {
 }
 
 #bodytext-middle {
-    font-family: "Arvo";
+    font-family: "Arvo", sans-serif;
     font-weight: 700;
     font-style: normal;
     text-align: center;
@@ -183,6 +183,27 @@ body {
 
 .grid-container i {
     font-size: 300%;
+}
+
+/*----------------------------------------About Me Section */
+
+#about-me h3 {
+    text-decoration: underline;
+}
+
+.who-am-i {
+    font-family: "GFS Neohellenic", sans-serif;
+    font-size: 1.1rem;
+    padding-bottom: 25px;
+}
+
+.work-history {
+    font-family: "GFS Neohellenic", sans-serif;
+    font-size: 1.2rem;
+}
+
+.work-history li {
+    padding: 10px;
 }
 
 /*----------------------------------------Footer */
