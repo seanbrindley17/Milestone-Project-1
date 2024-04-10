@@ -206,12 +206,28 @@ body {
     padding: 10px;
 }
 
+/*----------------------------------------Contact Section */
+
+#contact {
+    text-align: center;
+}
+
+#contact h3 {
+    font-family: "GFS Neohellenic";
+    font-weight: 700;
+}
+
+#contact i {
+    font-size: 2rem;
+    padding: 10px;
+}
+
 /*----------------------------------------Footer */
 
 #footer-general {
     position: relative;
     width: 100%;
-    top: 50px;
+    top: 25vw;
     font-family: sans-serif;
     padding-top: 25px;
     padding-left: 10%;
