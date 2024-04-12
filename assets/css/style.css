@@ -37,8 +37,8 @@ body {
     font-size: 2.7rem;
     font-weight: 300;
     text-align: center;
-    padding-top: 37.5px;
-    padding-bottom: 37.5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .headinglink {
@@ -212,7 +212,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-}
+    font-family: "Vast-Shadow";
+    letter-spacing: 1px;
+    }
 
 #contact h3 {
     font-family: "GFS Neohellenic";
@@ -230,20 +232,69 @@ body {
     flex-direction: column;
     align-items: start;
     gap: 15px;
+    font-size: 1.2rem;
 }
 
 .contact-inputs {
     width: 300px;
     height: 50px;
     border: none;
-    color: rgba(151, 151, 151, 0.5);
     padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fafafa;
+}
+
+.contact-inputs:hover {
+    border-color: grey;
+    border-style: solid;
+}
+
+::placeholder {
+    color: rgba(216, 194, 194, 0.534);
+    opacity: 1;
 }
 
 .contact-form textarea { 
     height: 150px;
     padding-top: 10px;
 }
+
+#submitbtn {
+    width: 100px;
+    height: 50px;
+    background: linear-gradient(
+        45deg,
+        #d4af37 5%,
+        #debc5b 10%,
+        #e7c97c 30%,
+        #efd69d 50%,
+        #e7c97c 70%,
+        #debc5b 80%,
+        #d4af37 95%
+        );
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border-radius: 25%;
+}
+
+/* Following code taken from hover.css */
+
+.hvr-glow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+  }
+  .hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  }
+
+  /* End of hover.css code */
 
 /*----------------------------------------Footer */
 
@@ -316,6 +367,18 @@ body {
         font-size: 2rem;
     }
 
+    .contact-form {
+        gap: 20px;
+    }
+
+    .contact-inputs {
+        width: 400px;
+    }
+
+    .contact-form textarea {
+        height: 200px;
+    }
+
     #footer-general {
         top: 85px;
     }
@@ -333,6 +396,14 @@ body {
         margin-bottom: 70px;
     }
 
+    .contact-inputs {
+        width: 450px;
+    }
+
+    .contact-form textarea {
+        height: 225px;
+    }
+
     #footer-general {
         top: 50px;
     }
@@ -344,6 +415,14 @@ body {
     .navbutton {
         font-size: 1.5rem;
         padding-top: 0.5rem;
+    }
+
+    .contact-inputs {
+        width: 500px;
+    }
+
+    .contact-form textarea {
+        height: 250px;
     }
 
     #footer-general {
