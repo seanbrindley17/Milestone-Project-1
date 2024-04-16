@@ -177,13 +177,19 @@ body {
     text-align: center;
 }
 
-.call-to-action button {
-    color: #fafafa;
+.ctabutton {
+    margin: 0 auto;
+    width: 300px;
     background-color: rgba(0, 0, 0, 0.5);
     border: none;
     padding: 10px;
     border-radius: 5%;
     animation: cta-button 1.5s linear 2s infinite normal none;
+}
+
+.ctabutton a {
+    color: #fafafa;
+    text-decoration: none;
 }
 
 @keyframes cta-button {
@@ -200,6 +206,7 @@ body {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     text-align: center;
+    padding-top: 30px;
 }
 
 .grid-container i {
@@ -322,7 +329,7 @@ body {
 #footer-general {
     position: relative;
     width: 100%;
-    top: 25vw;
+    /* top: 25vw; */
     font-family: sans-serif;
     padding-top: 25px;
     padding-left: 10%;
