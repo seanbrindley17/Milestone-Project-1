@@ -173,6 +173,27 @@ body {
     font-size: 1.7rem;
 }
 
+.call-to-action {
+    text-align: center;
+}
+
+.call-to-action button {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 10px;
+    border-radius: 5%;
+    animation: cta-button 1.5s linear 2s infinite normal none;
+}
+
+@keyframes cta-button {
+    0% {transform: scale(1);}
+    25% {transform: scale(1.1)};
+    50% {transform: scale(1.2);}
+    75% {transform: scale(1.1);}
+    100% {transform: scale(1);}
+}
+
 /*----------------------------------------Index Icons */
 
 .grid-container {
@@ -405,7 +426,7 @@ body {
     }
 
     #footer-general {
-        top: 50px;
+        top: 25px;
     }
 }
 
@@ -426,6 +447,6 @@ body {
     }
 
     #footer-general {
-        top: 200px;
+        top: 50px;
     }
 }
