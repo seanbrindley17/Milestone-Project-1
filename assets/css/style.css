@@ -39,6 +39,7 @@ body {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 0px;
+    margin: 0 auto;
 }
 
 .headinglink {
@@ -67,9 +68,9 @@ body {
 .navbutton {
     font-family: "Vast Shadow", sans-serif;
     font-size: 0.8em;
-    border-style: dashed;
+    /* border-style: dashed;
     border-color: #fafafa;
-    border-width: 1px;
+    border-width: 1px; */
     padding-top: 2.5em;
     /* border-radius: 25%; */
     /* background: linear-gradient(
@@ -114,16 +115,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(
-        45deg,
-        #d4af37 5%,
-        #debc5b 10%,
-        #e7c97c 30%,
-        #efd69d 50%,
-        #e7c97c 70%,
-        #debc5b 80%,
-        #d4af37 95%
-        );
+    background: rgba(0, 0, 0, 0.5);
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 0 50%;
@@ -237,6 +229,45 @@ body {
 
 .work-history li {
     padding: 10px;
+}
+
+/*----------------------------------------Projects Section */
+
+.projects-title {
+    font-family: "Arvo", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.project-body h3 {
+    font-family: "Arvo", sans-serif;
+    padding-top: 15px;
+}
+
+.project-one, .project-two {
+    text-align: center;
+}
+
+.project-one {
+    padding-bottom: 25px;
+}
+
+.project-two {
+    padding-bottom: 25px;
+}
+
+.project-image {
+    width: 300px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+img {
+   max-height: 100%;
+   max-width: 100%;
+   display: block;
+   padding: 5px;
 }
 
 /*----------------------------------------Contact Section */
@@ -413,7 +444,7 @@ body {
     }
 
     #footer-general {
-        top: 85px;
+        top: 30px;
     }
 }
 
@@ -440,6 +471,11 @@ body {
 
     .navitems {
         width: 20%;
+    }
+
+    .project-image {
+        width: 450px;
+        height: 200px;
     }
 }
 
