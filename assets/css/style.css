@@ -10,8 +10,15 @@ html {
     min-height: 100%;
 }
 
-body {
-    min-height: 100%;
+/* body {
+    min-height: 100vh;
+    position: relative;
+} */
+
+#main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* html, body {
@@ -30,6 +37,14 @@ body {
 
 /* h1 {
     text-transform: uppercase;
+} */
+
+#heading {
+    height: 75px;
+}
+
+/* .heading-box {
+    margin-bottom: 75px;
 } */
 
 .sitename {
@@ -145,7 +160,7 @@ body {
 }
 
 #bodytext-top {
-    padding-left: 10%;
+    padding-left: 14%;
     text-align: left;
     font-size: 1.7rem;
 }
@@ -257,11 +272,18 @@ body {
     font-weight: 700;
     text-align: center;
     padding-bottom: 25px;
+    letter-spacing: 1px;
 }
 
 .project-body h3 {
     font-family: "Arvo", sans-serif;
     padding-top: 15px;
+    letter-spacing: 1px;
+}
+
+.project-body p {
+    font-size: large;
+    
 }
 
 .project-one, .project-two {
@@ -382,15 +404,9 @@ img {
 /*----------------------------------------Footer */
 
 #footer-general {
-    position: relative;
-    width: 100%;
-    /* top: 25vw; */
-    font-family: sans-serif;
-    padding-top: 25px;
+    margin-top: auto;
     padding-left: 10%;
-    height: 100px;
-    margin-top: 1px;
-    padding-bottom: 20px;
+    font-family: sans-serif;
 }
 
 /*----------------------------------------Media Queries */
@@ -438,16 +454,24 @@ img {
         padding-top: 0.5rem;
     }
 
-    #section-general {
-        margin-bottom: 75px;
-    }
-
     .navitems {
         margin-left: 15px;
     }
 
     #bodytext-top, #bodytext-bottom {
         font-size: 2rem;
+    }
+
+    #bodytext-bottom {
+        padding-left: 60%;
+    }
+
+    .grid-container i {
+        font-size: 400%;
+    }
+
+    #about-me .container {
+        padding: 0 75px;
     }
 
     .contact-form {
@@ -471,9 +495,20 @@ img {
 
 @media screen and (min-width: 992px) {
     
+    #heading {
+        margin-bottom: 25px;
+    }
+
     #section-general {
-        margin-top: 35px;
         margin-bottom: 70px;
+    }
+
+    #bodytext-bottom {
+        padding-left: 70%;
+    }
+
+    .grid-container {
+        padding: 0 75px;
     }
 
     .contact-inputs {
@@ -502,12 +537,35 @@ img {
 
 @media screen and (min-width: 1200px) {
     .navbutton {
-        font-size: 1.5rem;
-        padding-top: 0.5rem;
+        font-size: 1.9rem;
+        padding-top: 0.1rem;
+    }
+
+    .navitems {
+        width: 23%;
+        padding: 0 20px;
     }
 
     #section-general {
         font-size: 2.1rem;
+    }
+
+    #section-general p {
+        font-size: 3rem;
+    }
+
+    .grid-container {
+        padding: 0 200px;
+    }
+
+    .grid-container i {
+        font-size: 500%;
+    }
+
+    .project-image {
+        width: 600px;
+        height: 300px;
+        margin: 0 15px;
     }
 
     .contact-inputs {
@@ -518,7 +576,11 @@ img {
         height: 250px;
     }
 
-    #footer-general {
-        top: 50px;
-    }
+    /* #content-wrap {
+        padding-bottom: 2.5rem;
+    } */
+
+    /* #footer-general {
+        bottom: 0;
+    } */
 }
