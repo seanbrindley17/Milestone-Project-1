@@ -101,7 +101,7 @@ body {
     text-decoration: none;
     width: 100%;
     height: 100%;
-    color: #201e1e;
+    color: #000;
 }
 
 .active {
@@ -273,6 +273,7 @@ body {
     text-align: center;
     padding-bottom: 25px;
     letter-spacing: 1px;
+    font-size: 2rem;
 }
 
 .project-body h3 {
@@ -317,7 +318,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    font-family: "Vast-Shadow";
+    font-family: "Arvo";
     letter-spacing: 1px;
     }
 
@@ -338,6 +339,11 @@ img {
     align-items: start;
     gap: 15px;
     font-size: 1.2rem;
+    padding-bottom: 50px;
+}
+
+.contact-form b {
+    font-size: 1.3rem;
 }
 
 .contact-inputs {
@@ -355,7 +361,7 @@ img {
 }
 
 ::placeholder {
-    color: rgba(216, 194, 194, 0.534);
+    color: rgba(216, 194, 194, 0.5);
     opacity: 1;
 }
 
@@ -407,6 +413,12 @@ img {
     margin-top: auto;
     padding-left: 10%;
     font-family: sans-serif;
+}
+
+#footer-general i {
+    font-size: 25px;
+    margin-left: 10px;
+    color: #000;
 }
 
 /*----------------------------------------Media Queries */
@@ -472,6 +484,14 @@ img {
 
     #about-me .container {
         padding: 0 75px;
+    }
+
+    .projects-title {
+        font-size: 2.5rem;
+    }
+
+    #contact h3 {
+        font-size: 2.5rem;
     }
 
     .contact-form {
@@ -560,6 +580,14 @@ img {
 
     .grid-container i {
         font-size: 500%;
+    }
+
+    .projects-title {
+        font-size: 3rem;
+    }
+
+    #contact h3 {
+        font-size: 3rem;
     }
 
     .project-image {
