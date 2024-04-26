@@ -8,6 +8,8 @@ Return to the [README.md](README.md).
     * HTML
     * CSS
 
+* Browser Compatability
+
 * Responsiveness
 
 * Accessibility 
@@ -38,4 +40,10 @@ I used the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate
 | style.css | [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fseanbrindley17.github.io%2Fmilestone-project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot of css validation error](/readme-documentations/screenshots/w3c%20css%20validator%20error.jpg) | Syntax error in some css animation code. |
 | style.css | [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fseanbrindley17.github.io%2Fmilestone-project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot of css validator pass](/readme-documentations/screenshots/w3c%20css%20validator%20pass.jpg) | No errors found. Pass. |
 
+## Browser Compatibility
 
+I tested the site on these browsers to check for any combatibility issues.
+
+| Browser | Home | About Me | Projects | Contact | Notes |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| Chrome | ![screenshot of homepage on chrome](/readme-documentations/screenshots/browser%20responsiveness%20screenshots/chrome/chrome%20home%20page.jpg) | ![screenshot of about me page on chrome](/readme-documentations/screenshots/browser%20responsiveness%20screenshots/chrome/chrome%20about%20me%20page.jpg) | ![screenshot of projects page on chrome] | ![screenshot of contact page on chrome](/readme-documentations/screenshots/browser%20responsiveness%20screenshots/chrome/chrome%20contact%20page.jpg) | 
