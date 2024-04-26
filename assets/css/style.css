@@ -419,7 +419,8 @@ img {
     right: 0;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.5);
-    border: #000 2px solid;   
+    border: #000 2px solid;
+    border-radius: 12.5%;   
 }
 
 .submitcontent {
@@ -449,6 +450,7 @@ img {
     border: #000 solid 1px;
     width: 75%;
     margin: auto;
+    border-radius: 30%;
 }
 
 .submitcontent a {
