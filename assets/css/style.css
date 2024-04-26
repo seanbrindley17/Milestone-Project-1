@@ -280,11 +280,39 @@ body {
     font-family: "Arvo", sans-serif;
     padding-top: 15px;
     letter-spacing: 1px;
+    text-decoration: underline;
 }
 
 .project-body p {
-    font-size: large;
-    
+    font-size: 1.2rem;
+    margin: 25px;
+}
+
+.project-container {
+    border: #000 solid 1px;
+    width: 300px;
+    height: 500px;
+    margin: 25px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fafafa;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-container a {
+    text-decoration: none;
+    color: #fafafa;
+    letter-spacing: 1px;
+    margin-top: auto;
+    font-size: 1.2rem;
+}
+
+.project-container a:hover {
+    text-decoration: underline;
+}
+
+.project-container b {
+    margin: 5px;
 }
 
 .project-one, .project-two {
@@ -308,8 +336,7 @@ body {
 img {
    max-height: 100%;
    max-width: 100%;
-   display: block;
-   padding: 5px;
+   padding: 3px;
 }
 
 /*----------------------------------------Contact Section */
@@ -657,10 +684,6 @@ img {
         width: 20%;
     }
 
-    .project-image {
-        width: 450px;
-        height: 200px;
-    }
 
     .submitconfirm {
         width: 500px;
@@ -704,10 +727,13 @@ img {
         font-size: 3rem;
     }
 
+    .project-container {
+        width: 400px;
+    }
+
     .project-image {
-        width: 600px;
-        height: 300px;
-        margin: 0 15px;
+        width: fit-content;
+        height: 195px;
     }
 
     .contact-inputs {
