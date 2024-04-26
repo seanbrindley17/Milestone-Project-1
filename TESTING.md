@@ -36,4 +36,6 @@ I used the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate
 | File | W3C URL | Screenshot | Notes |
 | :---: | :---: | :---: | :---: |
 | style.css | [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fseanbrindley17.github.io%2Fmilestone-project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot of css validation error](/readme-documentations/screenshots/w3c%20css%20validator%20error.jpg) | Syntax error in some css animation code. |
+| style.css | [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fseanbrindley17.github.io%2Fmilestone-project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot of css validator pass](/readme-documentations/screenshots/w3c%20css%20validator%20pass.jpg) | No errors found. Pass. |
+
 
