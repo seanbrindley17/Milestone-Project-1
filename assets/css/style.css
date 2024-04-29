@@ -159,7 +159,7 @@ body {
     margin-bottom: 25px;
 }
 
-#bodytext-top h3 {
+#bodytext-top h2 {
     padding-left: 14%;
     text-align: left;
     font-size: 1.7rem;
@@ -174,13 +174,13 @@ body {
     padding-bottom: 10px;
 }
 
-#bodytext-bottom h3 {
+#bodytext-bottom h2 {
     padding-left: 66%;
     text-align: left;
     font-size: 1.7rem;
 }
 
-#bodytext-top h3, #bodytext-bottom h3 {
+#bodytext-top h2, #bodytext-bottom h2 {
     font-weight: 700;
 }
 
