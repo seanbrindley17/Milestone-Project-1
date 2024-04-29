@@ -159,8 +159,8 @@ body {
     margin-bottom: 25px;
 }
 
-#bodytext-top h2 {
-    padding-left: 14%;
+#bodytext-top {
+    padding-left: 16%;
     text-align: left;
     font-size: 1.7rem;
 }
@@ -174,7 +174,7 @@ body {
     padding-bottom: 10px;
 }
 
-#bodytext-bottom h2 {
+#bodytext-bottom {
     padding-left: 66%;
     text-align: left;
     font-size: 1.7rem;
@@ -603,7 +603,7 @@ img {
         margin-left: 15px;
     }
 
-    #bodytext-top, #bodytext-bottom {
+    #bodytext-top h2, #bodytext-bottom h2 {
         font-size: 2rem;
     }
 
@@ -623,7 +623,7 @@ img {
         font-size: 2.5rem;
     }
 
-    #contact h3 {
+    #contact h2 {
         font-size: 2.5rem;
     }
 
@@ -658,6 +658,19 @@ img {
 
     #section-general {
         margin-bottom: 70px;
+        gap: 75px;
+    }
+
+    .body-text {
+        margin: 25px 0;
+    }
+
+    #bodytext-middle h2 {
+        font-size: 5rem;
+    }
+    
+    #bodytext-top h2, #bodytext-bottom h2 {
+        font-size: 2.5rem;
     }
 
     #bodytext-bottom {
@@ -707,8 +720,12 @@ img {
         font-size: 2.1rem;
     }
 
-    #section-general p {
+    #bodytext-top h2, #bodytext-bottom h2 {
         font-size: 3rem;
+    }
+
+    #bodytext-middle h2 {
+        font-size: 6rem;
     }
 
     .grid-container {
@@ -723,7 +740,7 @@ img {
         font-size: 3rem;
     }
 
-    #contact h3 {
+    #contact h2 {
         font-size: 3rem;
     }
 
