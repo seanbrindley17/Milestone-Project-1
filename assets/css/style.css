@@ -627,8 +627,8 @@ img {
         font-size: 2.5rem;
     }
 
-    .contact-form {
-        gap: 20px;
+    .contact-form form{
+        gap: 30px;
     }
 
     .contact-inputs {
@@ -640,7 +640,7 @@ img {
     }
 
     #footer-general {
-        top: 30px;
+        margin-top: 0;
     }
 
     .submitconfirm {
