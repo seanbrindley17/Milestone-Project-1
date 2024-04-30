@@ -66,3 +66,13 @@ I used the web accessibility evaluation tool [WAVE](https://wave.webaim.org/) to
 | Page | Desktop | Mobile | Notes |
 | :---: | :---: | :---: | :---: |
 | Main | ![screenshot of lighthouse audit for desktop](/readme-documentations/screenshots/lighthouse%20screenshots/desktop%20lighthouse%20audit.jpg) | ![screenshot of lighthouse audit for mobile](/readme-documentations/screenshots/lighthouse%20screenshots/mobile%20lighthouse%20audit.jpg) | Good performance on desktop. Seems to argue with my Kaspersky firewall however which is reducing the score in best practices and mobile performance when tested. |
+
+## User Story Testing 
+
+| User Story | Screenshot |
+| :---: | :---: |
+| As a new site user, I would like to know what the site is about so I can understand what the purpose of the site is for. | ![screenshot of home page](/readme-documentations/screenshots/user%20story%20screenshots/what%20the%20site%20is%20about.jpg) |
+| As a new site user, I would like to be able to locate the navigation elements to take me to the relevant page quickly and easily. | ![screenshot of navbar](/readme-documentations/screenshots/user%20story%20screenshots/navigation.jpg) |
+| As a new site user, I would like to see a clear and concise website. | ![screenshot of full font page](/readme-documentations/screenshots/user%20story%20screenshots/full%20front%20page.jpg) |
+| As a returning site visitor, I would like to be able to immediately navigate to the page which is most relevant for me. | ![screenshot of navbar](/readme-documentations/screenshots/user%20story%20screenshots/navigation.jpg) |
+| As a returning site visitor, I would like to see the programming languages associated with the creator if I feel like I could work with the creator. | ![screenshot of programming language icons](/readme-documentations/screenshots/user%20story%20screenshots/programming%20language%20icons.jpg) |
