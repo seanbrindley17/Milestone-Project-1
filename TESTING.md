@@ -16,9 +16,9 @@ Return to the [README.md](README.md).
 
 * Lighthouse Audit
 
-* Defensive Programming
-
 * User Story Testing
+
+* Defensive Programming
 
 ## Code Validation 
 
@@ -40,6 +40,7 @@ I used the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate
 | style.css | [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fseanbrindley17.github.io%2Fmilestone-project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot of css validation error](/readme-documentations/screenshots/w3c%20css%20validator%20error.jpg) | Syntax error in some css animation code. |
 | style.css | [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fseanbrindley17.github.io%2Fmilestone-project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot of css validator pass](/readme-documentations/screenshots/w3c%20css%20validator%20pass.jpg) | No errors found. Pass. |
 
+
 ## Browser Compatibility
 
 I tested the site on these browsers to check for any combatibility issues.
@@ -48,6 +49,7 @@ I tested the site on these browsers to check for any combatibility issues.
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | Chrome | ![screenshot of homepage on chrome](/readme-documentations/screenshots/browser%20responsiveness%20screenshots/chrome/chrome%20home%20page.jpg) | ![screenshot of about me page on chrome](/readme-documentations/screenshots/browser%20responsiveness%20screenshots/chrome/chrome%20about%20me%20page.jpg) | ![screenshot of projects page on chrome](/readme-documentations/screenshots/browser%20responsiveness%20screenshots/chrome/chrome%20projects%20page.jpg) | ![screenshot of contact page on chrome](/readme-documentations/screenshots/browser%20responsiveness%20screenshots/chrome/chrome%20contact%20page.jpg) | All work as intended. |
 | Edge | ![screenshot of home page on Edge](/readme-documentations/screenshots/browser%20responsiveness%20screenshots/edge/edge%20home%20page.jpg) | ![screenshot of about me page on edge](/readme-documentations/screenshots/browser%20responsiveness%20screenshots/edge/edge%20about%20me%20page.jpg) | ![screenshot of projects page on edge](/readme-documentations/screenshots/browser%20responsiveness%20screenshots/edge/edge%20projects%20page.jpg) | ![screenshot of contact page on edge](/readme-documentations/screenshots/browser%20responsiveness%20screenshots/edge/edge%20contact%20page.jpg) | All work as intended. |
+
 
 ## Accessibility 
 
@@ -67,6 +69,7 @@ I used the web accessibility evaluation tool [WAVE](https://wave.webaim.org/) to
 | :---: | :---: | :---: | :---: |
 | Main | ![screenshot of lighthouse audit for desktop](/readme-documentations/screenshots/lighthouse%20screenshots/desktop%20lighthouse%20audit.jpg) | ![screenshot of lighthouse audit for mobile](/readme-documentations/screenshots/lighthouse%20screenshots/mobile%20lighthouse%20audit.jpg) | Good performance on desktop. Seems to argue with my Kaspersky firewall however which is reducing the score in best practices and mobile performance when tested. |
 
+
 ## User Story Testing 
 
 | User Story | Screenshot |
@@ -76,3 +79,13 @@ I used the web accessibility evaluation tool [WAVE](https://wave.webaim.org/) to
 | As a new site user, I would like to see a clear and concise website. | ![screenshot of full font page](/readme-documentations/screenshots/user%20story%20screenshots/full%20front%20page.jpg) |
 | As a returning site visitor, I would like to be able to immediately navigate to the page which is most relevant for me. | ![screenshot of navbar](/readme-documentations/screenshots/user%20story%20screenshots/navigation.jpg) |
 | As a returning site visitor, I would like to see the programming languages associated with the creator if I feel like I could work with the creator. | ![screenshot of programming language icons](/readme-documentations/screenshots/user%20story%20screenshots/programming%20language%20icons.jpg) |
+
+
+## Defensive Programming 
+
+| Page | Expectation | Test | Result | Fix | Screenshot |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| Main | The Contact page is expected to open when the user clicks on the Give Me A Shout button | Tested the feature by clicking the Give Me A Shout Button | The feature behaved as expected | Test passed | ![screenshot of contact page](/readme-documentations/screenshots/defensive%20testing%20screenshots/contact%20page.jpg) |
+| Contact | If a user attempts to submit a query from the contact page without inputting a name, valid email address or query, they will not be able to | Tested by clicking the submit button while having each of the fields empty, one at a time | The feature behaved as expected | Test Passed | ![screenshot of contact page with error message](/readme-documentations/screenshots/defensive%20testing%20screenshots/submit%20form%20required%20fields.jpg) |
+| All pages | The Github icon in the footer is expected to open my Github profile in a new tab | Tested by clicking the Github icon on all pages | The feature behaved as expected | Test Passed | ![screenshot of my Github profile page](/readme-documentations/screenshots/defensive%20testing%20screenshots/github%20profile.jpg) |
+| All pages | The page title at the top is expected to function as a home button | Tested by clicking the title on all pages | The feature behaved as expected | Test Passed | ![screenshot of page title](/readme-documentations/screenshots/defensive%20testing%20screenshots/page%20title.jpg) |
