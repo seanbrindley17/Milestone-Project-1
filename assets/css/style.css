@@ -267,6 +267,10 @@ body {
 
 /*----------------------------------------Projects Section */
 
+#projects {
+    margin-bottom: 50px;
+}
+
 .projects-title {
     font-family: "Arvo", sans-serif;
     font-weight: 700;
