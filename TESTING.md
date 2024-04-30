@@ -65,4 +65,4 @@ I used the web accessibility evaluation tool [WAVE](https://wave.webaim.org/) to
 
 | Page | Desktop | Mobile | Notes |
 | :---: | :---: | :---: | :---: |
-| Main | ![screenshot of lighthouse audit for desktop](/readme-documentations/screenshots/lighthouse%20screenshots/desktop%20lighthouse%20audit.jpg) | ![screenshot of lighthouse audit for mobile]() | Good performance. Seems to argue with my Kaspersky firewall however which is reducing the score. |
+| Main | ![screenshot of lighthouse audit for desktop](/readme-documentations/screenshots/lighthouse%20screenshots/desktop%20lighthouse%20audit.jpg) | ![screenshot of lighthouse audit for mobile](/readme-documentations/screenshots/lighthouse%20screenshots/mobile%20lighthouse%20audit.jpg) | Good performance on desktop. Seems to argue with my Kaspersky firewall however which is reducing the score in best practices and mobile performance when tested. |
