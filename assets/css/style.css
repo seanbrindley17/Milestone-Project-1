@@ -10,20 +10,11 @@ html {
     min-height: 100%;
 }
 
-/* body {
-    min-height: 100vh;
-    position: relative;
-} */
-
 #main {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
-
-/* html, body {
-    overflow-x: hidden;
-}  */
 
 
 /*----------------------------------------Colours */
@@ -35,17 +26,9 @@ body {
 
 /*----------------------------------------Heading */
 
-/* h1 {
-    text-transform: uppercase;
-} */
-
 #heading {
     height: 75px;
 }
-
-/* .heading-box {
-    margin-bottom: 75px;
-} */
 
 .sitename {
     font-family: "Vast Shadow", sans-serif;
@@ -83,21 +66,7 @@ body {
 .navbutton {
     font-family: "Vast Shadow", sans-serif;
     font-size: 0.8em;
-    /* border-style: dashed;
-    border-color: #fafafa;
-    border-width: 1px; */
     padding-top: 2.5em;
-    /* border-radius: 25%; */
-    /* background: linear-gradient(
-        45deg,
-        #a79315 5%,
-        #e2c821 10%,
-        #dacd7e 30%,
-        #b19d1c 50%,
-        #dacd7e 70%,
-        #e5da93 80%,
-        #e2c402 95%
-    ); */
     text-decoration: none;
     width: 100%;
     height: 100%;
@@ -360,11 +329,6 @@ img {
     font-weight: 700;
     font-size: 2rem;
 }
-
-/* #contact i {
-    font-size: 2rem;
-    padding: 10px;
-} */
 
 .contact-form form {
     display: flex;
@@ -644,10 +608,6 @@ img {
         height: 200px;
     }
 
-    /* #footer-general {
-        margin-top: 0;
-    } */
-
     .submitconfirm {
         width: 400px;
     }
@@ -765,12 +725,4 @@ img {
     .contact-form textarea {
         height: 250px;
     }
-
-    /* #content-wrap {
-        padding-bottom: 2.5rem;
-    } */
-
-    /* #footer-general {
-        bottom: 0;
-    } */
 }
