@@ -482,7 +482,6 @@ img {
     border: #000 solid 1px;
     width: 75%;
     margin: auto;
-    border-radius: 30%;
 }
 
 .submitcontent a {
@@ -644,9 +643,9 @@ img {
         height: 200px;
     }
 
-    #footer-general {
+    /* #footer-general {
         margin-top: 0;
-    }
+    } */
 
     .submitconfirm {
         width: 400px;
