@@ -15,6 +15,10 @@ I used the [W3C HTML Validator](https://validator.w3.org/nu/) to validate all of
 | Home Page | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fseanbrindley17.github.io%2Fmilestone-project-1%2F) | ![screenshot of W3C validation pass](/readme-documentations/screenshots/w3c%20html%20validator%20pass.jpg) | Fixed by changing a the 2nd h1 element on the home page into a h2 element. Result: Pass. No errors or warnings. |
 | About Me | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fseanbrindley17.github.io%2Fmilestone-project-1%2Faboutme.html) | ![screenshot of about me errors](/readme-documentations/screenshots/html%20validator%20screenshots/about%20me%20page%20validator%20errors.png) | Errors for incorrect usage of ul elements and having 2 closing body tags | 
 | About Me | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fseanbrindley17.github.io%2Fmilestone-project-1%2Faboutme.html#textarea) | ![screenshot of no warnings on about me page](/readme-documentations/screenshots/html%20validator%20screenshots/about%20me%20page%20pass.jpg) | Fixed by replacing invalid ul tags with p elements and removing the errant closing body tag. |
+| Projects | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fseanbrindley17.github.io%2Fmilestone-project-1%2Fprojects.html) | ![screenshot of no errors on projects page](/readme-documentations/screenshots/html%20validator%20screenshots/projects%20page%20html%20pass.jpg) | No errors or warnings. |
+| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fseanbrindley17.github.io%2Fmilestone-project-1%2Fcontact.html) | ![screenshot of no errors on contact page](/readme-documentations/screenshots/html%20validator%20screenshots/contact%20page%20html%20pass.jpg) | No errors or warnings. |
+
+
 
 ### CSS 
 
