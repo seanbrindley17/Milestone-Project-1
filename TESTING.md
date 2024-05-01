@@ -123,3 +123,7 @@ html, body {
 ### Bootstrap
 
 * I initially had a lot of trouble with inexplicably being unable to style the nav buttons using bootstrap, until I realised while looking in dev tools and not seeing any bootstrap styling that I had put the wrong code from bootstrap in my head element.
+
+---
+
+Return to the [README.md](README.md).
