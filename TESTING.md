@@ -2,23 +2,6 @@
 
 Return to the [README.md](README.md).
 
-## Contents 
-
-* Code Validation
-    * HTML
-    * CSS
-
-* Browser Compatability
-
-* Responsiveness
-
-* Accessibility 
-
-* Lighthouse Audit
-
-* User Story Testing
-
-* Defensive Programming
 
 ## Code Validation 
 
