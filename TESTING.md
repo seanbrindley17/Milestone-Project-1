@@ -89,3 +89,33 @@ I used the web accessibility evaluation tool [WAVE](https://wave.webaim.org/) to
 | Contact | If a user attempts to submit a query from the contact page without inputting a name, valid email address or query, they will not be able to | Tested by clicking the submit button while having each of the fields empty, one at a time | The feature behaved as expected | Test Passed | ![screenshot of contact page with error message](/readme-documentations/screenshots/defensive%20testing%20screenshots/submit%20form%20required%20fields.jpg) |
 | All pages | The Github icon in the footer is expected to open my Github profile in a new tab | Tested by clicking the Github icon on all pages | The feature behaved as expected | Test Passed | ![screenshot of my Github profile page](/readme-documentations/screenshots/defensive%20testing%20screenshots/github%20profile.jpg) |
 | All pages | The page title at the top is expected to function as a home button | Tested by clicking the title on all pages | The feature behaved as expected | Test Passed | ![screenshot of page title](/readme-documentations/screenshots/defensive%20testing%20screenshots/page%20title.jpg) |
+
+
+## Bugs/Issues 
+
+### Main Display Bug
+
+* I found that I had unexplained blank space below the footer and to the right that the background had got to but the space doesn't appear within the body element when checking it on Chrome dev tools. 
+
+![space below footer that doesnt appear in the body tag](/readme-documentations/screenshots/space%20below%20footer%20bug%2025-03-24.jpg)
+
+Fix: Found on stackoverflow [here](https://stackoverflow.com/questions/19148836/my-site-shows-white-space-on-right-in-mobile-chrome-but-not-desktop-chrome). Adding the below code to my style.css fixed the issue I was having initially. 
+```css 
+html, body {
+    overflow-x: hidden;
+}
+```
+
+* However, following on from this previous issue, I found that certain display ratios of width to height would give me the duplicated background display at the bottom shown below. 
+
+    ![comparison of the issues that differing heights has on the background](/readme-documentations/screenshots/differing%20heights%20background%20issue.jpg)
+
+* I was unable to solve this issue so I compensated by using a background image from [Pixabay](https://pixabay.com/illustrations/circular-slabs-metal-iron-837510/) as a replacement for my gradient colours. This was styled to make it sit central using code from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/).
+
+### Footer
+
+* I had a lot of trouble getting the footer to stay at the bottom of the screen, especially on pages with less content. Eventually I came across a solution from [30 Seconds Of Code](https://www.30secondsofcode.org/css/s/footer-at-the-bottom/) which showed how using flexbox can get a footer to stay sat at the bottom.
+
+### Bootstrap
+
+* I initially had a lot of trouble with inexplicably being unable to style the nav buttons using bootstrap, until I realised while looking in dev tools and not seeing any bootstrap styling that I had put the wrong code from bootstrap in my head element.
