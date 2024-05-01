@@ -219,6 +219,7 @@ body {
     grid-template-columns: 33% 33% 33%;
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 25px;
 }
 
 .grid-container i {
